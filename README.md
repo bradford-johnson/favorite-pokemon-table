@@ -18,3 +18,7 @@
 > > | a. | **Hand cleaned** some data in excel, such as removing megas, and duplicates |  |
 > > | b. | **Used `R`** to clean data up, such as formatting column names, removing symbols, filters etc. | [`view R script`](https://github.com/bradfordjohnson/favorite-pokemon-table/blob/main/table-script.R) |
 > > | c. | **Used `R`** to wrangle and join all data sets with `inner_join()` functions | [`view R script`](https://github.com/bradfordjohnson/favorite-pokemon-table/blob/main/table-script.R) |
+> - Creating the table
+> > |  | Creating the Table |  |
+> > |---|---|---|
+> > | a. | **Used `R`** and **`gt`** to create a table of my favorite Pokémon | [`view R script`](https://github.com/bradfordjohnson/favorite-pokemon-table/blob/main/table-script.R) |
