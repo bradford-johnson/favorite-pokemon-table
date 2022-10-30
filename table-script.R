@@ -1,3 +1,4 @@
+# load packages
 library(tidyverse)
 library(ggplot2)
 library(gt)
@@ -47,16 +48,12 @@ favorite_df %>%
     style = cell_text(
       font = google_font("Saira"), 
       align = "left", 
-      size = "xx-large"
-    ),
+      size = "xx-large"),
     locations = cells_title("title")) %>%
   tab_style(
     style = cell_text(
       font = google_font("Ubuntu"), 
-      size = "large"
-    ),
+      size = "large"),
     locations = list(
       cells_column_labels(everything()), 
-      cells_body(columns = 1)
-    ))
-
+      cells_body(columns = 1)))
