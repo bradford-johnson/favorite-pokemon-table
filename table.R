@@ -5,11 +5,11 @@ library(purrr)
 library(janitor)
 
 # load in data
-pokemon_df <- read_csv("pokemon-data.csv")
+pokemon_df <- read_csv("pokemon-data/pokemon-data.csv")
 
-types_df <- read_csv("pokemon-types.csv")
+types_df <- read_csv("pokemon-data/pokemon-types.csv")
 
-pokemon_info <- read_csv("pokemon-info.csv")
+pokemon_info <- read_csv("pokemon-data/pokemon-info.csv")
 
 # clean data for join
 types_df$dex_id <- gsub("#", "", types_df$dex_id)
@@ -59,3 +59,4 @@ favorite_df %>%
       cells_column_labels(everything()), 
       cells_body(columns = 1)
     ))
+
