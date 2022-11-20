@@ -1,5 +1,5 @@
 # favorite-pokémon-table 
-| This is my first table built using the `gt` package in `R`. | <img src="https://github.com/rstudio/hex-stickers/blob/master/thumbs/gt.png?raw=true" width="75px"> |
+| This is my first table built using the `gt` package in `R`. | <img src="https://raw.githubusercontent.com/rstudio/hex-stickers/7ddd8ddf5a034eb9beb7c2c8b8112f68205694df/SVG/gt.svg" width="75px"> |
 |-------------------------------------------------------------|----------------------------------------------------------------------------------------------------:|
 ---
 ![](images/pokemon-table.png)
